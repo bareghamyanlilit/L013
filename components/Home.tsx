@@ -9,8 +9,6 @@ import {
   firstTxt1,
   firstTxt2,
   forCalendar,
-  icons,
-  images,
   name,
   rotateTxt,
   txt1,
@@ -69,7 +67,7 @@ export function Home() {
           className="fixed z-10 p-1  rounded-2xl bg-[#5800001f]  right-7 top-7 w-15  h-15 flex justify-center items-center"
         >
           <Image
-            src={icons[1]}
+            src="/icon2.png"
             alt="icon1"
             width={500}
             height={500}
@@ -89,7 +87,7 @@ export function Home() {
           <div className="w-full grid grid-cols-2 gap-3 mt-30 mb-20">
             <div className="relative">
               <Image
-                src={images[0]}
+                src="/img1.jpg"
                 alt="icon1"
                 width={500}
                 height={500}
@@ -104,7 +102,7 @@ export function Home() {
             </div>
             <div className="relative">
               <Image
-                src={images[1]}
+                src="/img2.jpg"
                 alt="icon1"
                 width={500}
                 height={500}
@@ -138,7 +136,7 @@ export function Home() {
           </div>
           <div className="relative my-30">
             <Image
-              src={images[0]}
+              src="/img1.jpg"
               alt="icon1"
               width={500}
               height={500}
@@ -179,7 +177,7 @@ export function Home() {
             />
 
                 <Image
-                  src={icons[1]}
+                  src='/icon2.png'
                   width={40}
                   height={40}
                   alt="cal"

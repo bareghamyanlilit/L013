@@ -28,22 +28,6 @@ export const envelop=[
   '/envelope.png',
   '/forenvelope.png'
 ]
-export const images = [
-  "/img1.jpg",
-  "/img2.jpg",
-  "/img3.jpg",
-  "/img4.jpg",
-  "/img5.jpg",
-];
-
-export const icons = [
-  "/icon1.png",
-  "/icon2.png",
-  "/icon3.png",
-  "/icon4.png",
-  "/icon5.png",
-];
-
 export const name = ["ՍԵՎԱԿ", "ՄԱՐԻ"];
 export const firstTxt1='-սիրում եմ քեզ,\nկդառնա՞ս իմ կինը'
 export const firstTxt2='-Հա, կդառնամ'
