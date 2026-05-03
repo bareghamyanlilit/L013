@@ -51,7 +51,7 @@ export function Home() {
       <div className={` ${openEnvelope ? "animate-bounceXR" : ""} rounded-4xl absolute z-50 triangleR left-[80%] bgC w-dvh h-dvh border border-guyn`}></div>
       
       <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute top-20 text-vrayi left-1/2 -translate-x-1/2 `}>Հարսանեկան հրավիրատոմս</p>
-      <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute bottom-20 text-vrayi font-bold left-1/2 -translate-x-1/2 `}>Սիրով <br /> Մուշեղ և Մելինե</p>
+      <p className={` ${openEnvelope ? "opacity-0" : ""} z-60 absolute bottom-20 text-vrayi font-bold left-1/2 -translate-x-1/2 `}>Սիրով <br />Վահան և Միլա</p>
       
       <img
         src={envelop[1]}
@@ -126,7 +126,7 @@ export function Home() {
 
         {/* 2rd mas teqster */}
         <div className=" mb-20  ">
-          <div className=" leading-10 px-5">
+          <div className=" leading-10 px-5 mt-10">
             <motion.h3 {...anim} className=" font-bold text-sovorakan text-2xl">
               {txt1Title}
             </motion.h3>
@@ -134,9 +134,9 @@ export function Home() {
               {txt1}
             </motion.p>
           </div>
-          <div className="relative my-30">
+          <div className="relative mb-30 mt-20">
             <Image
-              src="/img1.jpg"
+              src="/img3.jpg"
               alt="icon1"
               width={500}
               height={500}
@@ -155,53 +155,6 @@ export function Home() {
 
         <Program />
 
-        {/* errord mas vazox tox + nkar */}
-        <div className=" mt-20 relative w-full font-bold  text-2xl text-vrayi ">
-          <div className=" whitespace-nowrap animate-marquee-2  rotate-2  -translate-x-full">
-            {vazoxTox1}
-          </div>
-          <div className=" whitespace-nowrap animate-marquee my-15  -translate-x-full">
-            {vazoxTox1}
-          </div>
-          <div className=" whitespace-nowrap animate-marquee-2  -rotate-2 -translate-x-full">
-            {vazoxTox1}
-          </div>
-
-          <div className="relative my-15">
-            <Image
-              src="/img3.jpg"
-              width={500}
-              height={500}
-              alt="jamanak"
-              className="w-[70vw] h-[80vw] mx-auto relative z-2 rounded-tl-[220px] object-cover "
-            />
-
-                <Image
-                  src='/icon2.png'
-                  width={40}
-                  height={40}
-                  alt="cal"
-                  className="absolute object-contain text-vrayi w-15 h-15 top-0 left-10"
-                />
-            <span className="absolute ml-4 -mt-24 z-0 w-[70vw] h-[80vw] rounded-tl-[220px] bg-guyn left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 "></span>
-
-            <p className=" font-normal mt-15 text-2xl tracking-[25%] text-center ">
-              {" "}
-              {txt3}
-            </p>
-          </div>
-
-          <div className=" whitespace-nowrap animate-marquee-2  rotate-2  -translate-x-full">
-            {vazoxTox1}
-          </div>
-          <div className=" whitespace-nowrap animate-marquee my-15  -translate-x-full">
-            {vazoxTox1}
-          </div>
-          <div className=" whitespace-nowrap animate-marquee-2  -rotate-2 -translate-x-full">
-            {vazoxTox1}
-          </div>
-        </div>
-
         {/* hethashxvark */}
         <motion.p {...anim} className=" text-2xl  mt-20">
           {txt2}
@@ -209,40 +162,6 @@ export function Home() {
 
         <TimeBox />
 
-
-        <AttendanceGuests />
-
-        <motion.p {...anim} className=" text-2xl  mt-20">
-          {txt4}
-        </motion.p>
-
-        {/* dress code */}
-        <div className=" text-vrayi">
-          <motion.h3
-            {...anim}
-            className="FontSHK_Dzeragir font-bold text-3xl my-20 "
-          >
-            Dress Code
-          </motion.h3>
-
-          <motion.p
-            {...anim}
-            className="FontSHK_Dzeragir text-2xl tracking-widest mb-20"
-          >
-            {txt5}
-          </motion.p>
-          <Image
-            src="/img3.jpg"
-            width={500}
-            height={500}
-            alt="jamanak"
-            className="w-[70%] mx-auto "
-          />
-        </div>
-
-        <motion.p {...anim} className=" text-2xl my-10 ">
-          {txt6}
-        </motion.p>
 
       </div>
       <Footer />

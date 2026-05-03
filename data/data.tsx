@@ -28,7 +28,7 @@ export const envelop=[
   '/envelope.png',
   '/forenvelope.png'
 ]
-export const name = ["ՍԵՎԱԿ", "ՄԱՐԻ"];
+export const name = ["ՎԱՀԱՆ", "ՄԻԼԱ"];
 export const firstTxt1='-սիրում եմ քեզ,\nկդառնա՞ս իմ կինը'
 export const firstTxt2='-Հա, կդառնամ'
 export const dateTimeBox: any = new Date("2026-10-24T11:00:00");
